@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@300&display=swap');
+
+
+
+
+body{
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 14px;
+}
+
+form{
+    width: 260px;
+    padding: 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.form-row{
+    margin-top: 20px;
+}
+
+.form-row > label{
+    display: block;
+    padding-bottom: 6px;
+    
+}
+
+
+input[type="text"],
+input[type="tel"],
+input[type="email"],
+select,
+button,
+textarea{
+    width: 100%;
+    height: 42px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border: 3px solid rgb(187, 0, 255);
+    border-radius: 5px;
+    font-size: inherit;
+    font-family: inherit;
+}
+
+input[type="text"]::placeholder,
+input[type="tel"]::placeholder,
+input[type="email"]::placeholder,
+textarea::placeholder{
+    color: rgb(175, 175, 175);
+}
+
+textarea{
+    min-height: 45px;
+    max-height: 200px;
+    resize: vertical;
+    padding: 10px;
+}
+
+.renkler label{
+    display: inline;
+}
+
+.renkler label + label{
+    margin-left: 20px;
+}
+
+/* .renkler{
+
+    border: 5px solid rgb(187, 0, 255)
+} */
+
+button{
+    width: auto;
+    border: 0;
+    background-color: #eee;
+}
+
+button[type="submit"]{
+    margin-left: 15px;
+    color: white;
+    background-color: rgb(68,176,255);
+}

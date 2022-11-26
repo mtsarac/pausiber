@@ -1,0 +1,3 @@
+[submodule "Workshop/pausiber-fe-workshop"]
+	path = Workshop/pausiber-fe-workshop
+	url = https://github.com/mtsarac/pausiber-fe-workshop.git

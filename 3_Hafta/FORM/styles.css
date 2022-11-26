@@ -1,0 +1,30 @@
+.container{
+    width: 100%;
+    height: 2000px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+body{
+    background-color: aqua;
+    margin: 0%;
+    width: 100%;
+    height: 3000px;
+
+
+}
+
+.input1{
+    width: 500px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: bisque;
+
+
+}
